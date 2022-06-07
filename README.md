@@ -6,4 +6,4 @@
 - 📫  How to reach me: byanndannma@gmail.com
 
 Tambien puedes encontrarme en:
-[**LinkedIn**](https://linkedin.com/in/danielmacielacevedo "LinkedIn") | [**Instagram**](http://instagram.com/danielmacielacevedo "Instagram") | [**Twitter**](http://twitter.com/danielmacielace "Twitter")
+[**LinkedIn**](https://linkedin.com/in/danielmacielacevedo "LinkedIn") | [**Instagram**](http://instagram.com/danielmacielacevedo "Instagram") | [**Twitter**](http://twitter.com/danielmacielace "Twitter") | [**Facebook**](http://facebook.com/danielmacielace "Facebook")
