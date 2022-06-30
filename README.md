@@ -1,4 +1,8 @@
-# 👋  Hi, I'm @danielmacielacevedo
+<h1 align="center">
+👋  Hi, I'm @danielmacielacevedo
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat-bold&color=F7D03E&lines=Platzi+Student;Back/Front+Developer+in+process+%F0%9F%92%BB;Never+stop+learning)](https://git.io/typing-svg)
+</h1>
 
 - 👀  I’m interested in in everything about programming
 - 🌱  I’m currently learning JavaScript
