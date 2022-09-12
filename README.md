@@ -6,7 +6,7 @@
 - 👀  I’m interested in in everything about programming
 - 🌱  I’m currently learning JavaScript
 - 💞️  I’m looking to collaborate with companies that have ambitious goals
-- 📫  How to reach me: contact@danielmacielacevedo.com
+- 📫  How to reach me: byanndannma@gmail.com
 - 🖋  This is my personal blog: https://danielmacielacevedo.com/
 
 
