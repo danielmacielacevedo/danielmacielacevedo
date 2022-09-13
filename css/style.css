@@ -22,6 +22,7 @@ body
 {
     background: var(--dark);
     color: var(--white);
+    font-family: 'Helvetica', sans-serif;
 }
 
 h1
@@ -80,6 +81,7 @@ h2
     background-image: url("https://images.unsplash.com/photo-1662398985322-01f40658e084?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80");
     background-size: cover;
     background-position: top;
+    
 }
 
 /* footer */
