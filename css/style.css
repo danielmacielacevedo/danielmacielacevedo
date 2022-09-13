@@ -165,9 +165,76 @@ h2
 
 /* footer */
 
+/* menu mobile */
+.menu-button
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: none;
+}
+.menu-button-burger
+{
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all .5s ease-in-out;
+}
+.menu-button-burger::before,
+.menu-button-burger::after
+{
+    content: ' ';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all .5s ease-in-out;
+}
+.menu-button-burger::before
+{
+    transform: translateY(8px);
+}
+.menu-button-burger::after
+{
+    transform: translateY(-8px);
+}
+
+/* animation */
+.menu-button.open .menu-button-burger
+{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-button.open .menu-button-burger::before
+{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-button.open .menu-button-burger::after
+{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
 @media only screen and (max-width: 500px)
 {
     .nav-links
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px)
+{
+    .menu-button
     {
         display: none;
     }
