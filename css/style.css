@@ -214,6 +214,14 @@ dannmacode
     justify-content: center;
 
 }
+.dev-p
+{
+    display: flex;
+}
+.dev-p p:nth-child(2)
+{
+    margin: 0 5px;
+}
 
 /* general */
 .general-sections
