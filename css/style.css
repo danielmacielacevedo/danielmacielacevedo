@@ -34,7 +34,7 @@ h1
 }
 h2
 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 14px;
 }
@@ -148,6 +148,7 @@ dannmacode
     padding: 20px;
 }
 
+/* cover */
 .background-cover-section
 {
     display: flex;
@@ -210,6 +211,7 @@ dannmacode
 
 }
 
+/* general */
 .general-sections
 {
     display: flex;
@@ -236,7 +238,9 @@ dannmacode
     margin-bottom: 26px;
 }
 
-.article-style-1
+/* article blog */
+
+.article-blog
 {
     display: flex;
     width: 100%;
@@ -245,19 +249,19 @@ dannmacode
     background-color: #131313;
     border-radius: 10px 8px 8px 10px;
 }
-.article-cover
+.article-blog-cover
 {
     width: 300px;
     height: 230px;
     object-fit: cover;
     border-radius: 8px 0 0 8px;
 }
-.article-info-container
+.article-blog-info-container
 {
     display: flex;
     width: 100%;
 }
-.article-info
+.article-blog-info
 {
     display: flex;
     flex-direction: column;
@@ -298,12 +302,12 @@ dannmacode
     font-weight: 700;
     padding-bottom: 4px;
 }
-.primary-button-article
+.primary-buttons-article
 {
     display: flex;
     width: 70%;
 }
-.primary-button-article a
+.primary-buttons-article a
 {
     display: flex;
     width: 40%;
@@ -321,7 +325,118 @@ dannmacode
     align-items: center;
     justify-content: center;
 }
-.primary-button-article a:nth-child(2)
+.primary-buttons-article a:nth-child(2)
+{
+    margin-left: 20px;
+    border: 2px solid var(--white);
+    background: transparent;
+    color: var(--white);
+}
+
+
+/* article project */
+.pinned-projects
+{
+    display: flex;
+}
+.pinned-projects article:nth-child(2)
+{
+    margin: 0 20px;
+}
+
+.article-project
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    border-radius: 10px 8px 8px 10px;
+}
+.article-project-cover
+{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.article-project-info-container
+{
+    display: flex;
+    width: 100%;
+}
+.article-project-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 14px 20px 20px 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 0 8px 8px 0;
+}
+
+
+.interactive-data
+{
+    display: flex;
+    width: auto;
+    align-items: center;
+    /* margin-top: 14px; */
+    justify-content: space-between;
+}
+.autor-data
+{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin-top: 14px;
+    min-width: 190px;
+}
+.article-data img
+{
+    margin-right: 10px;
+}
+
+
+.name-date
+{
+    display: flex;
+    flex-direction: column;
+}
+.name-date span:nth-child(1)
+{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+
+.secondary-buttons-article
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.secondary-buttons-article a
+{
+    display: flex;
+    width: 50%;
+    min-width: 64px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    padding: 0 20px 2.4px 20px;
+    border-radius: 6px;
+    background: var(--white);
+    font-size: 14px;
+    color: var(--dark);
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.secondary-buttons-article a:nth-child(2)
 {
     margin-left: 20px;
     border: 2px solid var(--white);
@@ -389,7 +504,7 @@ dannmacode
     color: var(--white);
 }
 
-@media only screen and (max-width: 820px)
+@media only screen and (max-width: 860px)
 {
     h1
     {
@@ -414,11 +529,13 @@ dannmacode
         line-height: 20px;
     }   
 
-    .article-style-1
+    .article-blog,
+    .article-project
     {
         flex-direction: column;
     }
-    .article-cover
+    .article-blog-cover,
+    .article-project-cover
     {
         width: 100%;
         border-radius: 8px 8px 0 0;
@@ -432,16 +549,28 @@ dannmacode
     {
         width: 100%;
     }
-    .primary-button-article
+    .primary-buttons-article,
+    .secondary-buttons-article
     {
         justify-content: space-between;
         width: 100%;
     }
-    .primary-button-article a
+    .primary-buttons-article a,
+    .secondary-buttons-article a
     {
         width: 50%;
         margin: 20px 0 0 0;
     }
+
+    .pinned-projects
+    {
+        flex-direction: column;
+    }
+    .pinned-projects article:nth-child(2)
+    {
+        margin: 30px 0;
+    }
+    
 
     .footer-links
     {
@@ -459,7 +588,7 @@ dannmacode
     }
 }
 
-@media only screen and (min-width: 820px)
+@media only screen and (min-width: 860px)
 {
     .menu-button
     {
