@@ -149,13 +149,16 @@ dannmacode
 }
 
 /* cover */
+
+
 .background-cover-section
 {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.412), rgb(0, 0, 0));
+    background: transparent;
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.412), rgb(0, 0, 0)); */
     align-items: center;
 }
 .cover-section
@@ -164,7 +167,8 @@ dannmacode
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/cover-images/wallpaper001.png");
+    background: transparent;
+    /* background-image: url("../assets/cover-images/wallpaper001.png"); */
     background-size: cover;
     background-position: bottom;
     align-items: center;
