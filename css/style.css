@@ -156,8 +156,7 @@ dannmacode
     height: 100vh;
     top: 60px;
     left: 0;
-    padding: 20px;
-    justify-content: space-around;
+    padding: 40px 20px 20px 20px;
 }
 .links-mobile
 {
@@ -178,6 +177,7 @@ dannmacode
 {
     display: flex;
     width: auto;
+    margin-top: 20px;
     justify-content: center;
 }
 .menu-mobile-social-media a
@@ -351,7 +351,7 @@ dannmacode
     width: 100%;
     height: auto;
     /* background-color: var(--white); */
-    padding-bottom: 40px;
+    /* padding-bottom: 0px; */
     justify-content: center;
 }
 .section-container
