@@ -1,6 +1,9 @@
 :root
 {
     --dannmacolor: rgb(103, 199, 255);
+    --html-color: rgb(223, 60, 0);
+    --css-color: rgb(0, 123, 255);
+    --js-color: rgb(255, 196, 0);
     --grey1: rgb(147, 147, 147);
     --dark: #000000;
     --white: #ffffff;
@@ -51,6 +54,11 @@ h2
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 14px;
+}
+h4
+{
+    font-size: 8px;
+    font-weight: 100;
 }
 dannmacode
 {
@@ -315,7 +323,7 @@ dannmacode
     display: flex;
     width: 180px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 60px;
     padding-bottom: 2.4px;
     border: 2px solid var(--white);
     border-radius: 6px;
@@ -333,7 +341,7 @@ dannmacode
 }
 .dev-p p:nth-child(1)
 {
-    color: var(--dannmacolor);
+    color: var(--white);
 }
 .dev-p p:nth-child(2)
 {
@@ -341,7 +349,17 @@ dannmacode
 }
 .dev-p p:nth-child(3)
 {
-    color: rgb(255, 255, 255);
+    color: var(--white);
+}
+.dev-p p:nth-child(4)
+{
+    margin: 0 5px;
+}
+.percentage-container #data-cover-h4
+{
+    color: rgba(255, 255, 255, 0.466);
+    margin: 5px 5px 0 0;
+    align-self: flex-end;
 }
 
 /* general */
@@ -368,9 +386,9 @@ dannmacode
 .section-container .section-title
 {
     font-size: 20px;
-    font-weight: 700;
-    color: var(--grey1);
-    margin-bottom: 26px;
+    font-weight:700;
+    color: var(--white);
+    margin-bottom: 30px;
 }
 
 /* article blog */
@@ -510,6 +528,105 @@ dannmacode
     height: auto;
     border-radius: 0 8px 8px 0;
 }
+.article-project-data
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.percentage-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.percentage-title
+{
+    display: flex;
+}
+.percentage-title h3
+{
+    margin-right: 8px;
+}
+.percentage-title h3:nth-child(1)
+{
+    color: var(--html-color);
+}
+.percentage-title h3:nth-child(2)
+{
+    color: var(--css-color);
+}
+.percentage-title h3:nth-child(3)
+{
+    color: var(--js-color);
+}
+.percentage
+{
+    display: flex;
+}
+.percentage span
+{
+    padding: 5px;
+}
+
+/* individual percentage */
+#danielmacielacevedo-com span:nth-child(1)
+{
+    width: 37.3%;
+    background-color: #131313;
+    border-radius: 4px 0 0 4px;
+}
+#danielmacielacevedo-com span:nth-child(2)
+{
+    width: 50.5%;
+    background-color: #232323;
+    border-radius: 0 0 0 0;
+}
+#danielmacielacevedo-com span:nth-child(3)
+{
+    width: 12.2%;
+    background-color: #333333;
+    border-radius: 0 4px 4px 0;
+}
+
+#netflix-clone span:nth-child(1)
+{
+    width: 86.6%;
+    background-color: var(--html-color);
+    border-radius: 4px 0 0 4px;
+}
+#netflix-clone span:nth-child(2)
+{
+    width: 13.5%;
+    background-color: var(--css-color);
+    border-radius: 0 4px 4px 0;
+}
+
+#batabit-crypto span:nth-child(1)
+{
+    width: 41.1%;
+    background-color: var(--html-color);
+    border-radius: 4px 0 0 4px;
+}
+#batabit-crypto span:nth-child(2)
+{
+    width: 58.9%;
+    background-color: var(--css-color);
+    border-radius: 0 4px 4px 0;
+}
+
+#youtube-clone span:nth-child(1)
+{
+    width: 80.5%;
+    background-color: var(--html-color);
+    border-radius: 4px 0 0 4px;
+}
+#youtube-clone span:nth-child(2)
+{
+    width: 19.5%;
+    background-color: var(--css-color);
+    border-radius: 0 4px 4px 0;
+}
+
 
 
 .interactive-data
