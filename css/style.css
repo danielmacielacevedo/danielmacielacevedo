@@ -1,7 +1,7 @@
 :root
 {
     --dannmacolor: rgb(103, 199, 255);
-    --html-color: rgb(223, 60, 0);
+    --html-color: rgb(84, 0, 180);
     --css-color: rgb(0, 123, 255);
     --js-color: rgb(255, 196, 0);
     --grey1: rgb(147, 147, 147);
@@ -316,7 +316,7 @@ h5
     width: 100%;
     height: 100%;
     background: transparent;
-    background-image: url("https://images.unsplash.com/photo-1652880263096-8eb1daf599cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80");
+    background-image: url("../assets/cover-images/cover-dannmacode.png");
     background-size: cover;
     background-position: top;
     align-items: center;
@@ -469,6 +469,8 @@ h5
 }
 .article-data img
 {
+    width: 32px;
+    height: 32px;
     margin-right: 10px;
 }
 .name-date
@@ -739,17 +741,10 @@ h5
     /* overscroll-behavior-x: contain; */
     /* scroll-snap-type: x proximity; */
 }
-.slider-projects-container::-webkit-scrollbar-thumb:horizontal
-{
-    background-color: red;
-}
-.slider-projects-container::-webkit-scrollbar-track:horizontal
-{
-    background-color: red;
-}
 
 .slider-projects-container img
 {
+    width: auto;
     height: 208px;
     object-fit: contain;
     border-radius: 4px;
