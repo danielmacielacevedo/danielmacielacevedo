@@ -733,8 +733,8 @@ h5
     width: 100%;
     height: auto;
     line-height: 40px;
-    padding-left: 10px;
-    justify-content: center;
+    padding-left: 0;
+    /* justify-content: center; */
     /* overflow-x: scroll; */
     /* overscroll-behavior-x: contain; */
     /* scroll-snap-type: x proximity; */
@@ -989,7 +989,7 @@ h5
         display: flex;
         flex-wrap: unset;
         justify-content: start;
-        padding-left: 20px;
+        padding-left: 5%;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
