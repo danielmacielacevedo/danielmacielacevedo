@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" href="./assets/dannmacode-black.jpg">
 </head>
 <body>
-    <header class="header-container">
+    <header class="header-container" id="mobile-home">
         <nav class="nav-container">
             <div class="nav-full">
                 <a href="./">
@@ -24,7 +24,7 @@
                     <ul class="nav-links">
                         <li><a href="./">home</a></li>
                         <li><a href="./blog/porque-escribir">blog</a></li>
-                        <li><a href="#">proyectos</a></li>
+                        <li><a href="#proyectos">proyectos</a></li>
                         <li><a href="#">biografía</a></li>
                     </ul>
                     <div class="nav-social-media">
@@ -41,9 +41,9 @@
                 <div class="menu-mobile-background">
                     <div class="menu-mobile-links">
                         <ul class="links-mobile">
-                            <li><a href="./">home</a></li>
+                            <li><a class="mobile-home" href="#mobile-home">home</a></li>
                             <li><a href="./blog/porque-escribir">blog</a></li>
-                            <li><a href="#">proyectos</a></li>
+                            <li><a class="mobile-projects" href="#proyectos">proyectos</a></li>
                             <li><a href="#">biografia</a></li>
                          </ul>
                          <div class="menu-mobile-social-media">
@@ -108,7 +108,7 @@
                                         </div>
                                         <div class="primary-buttons-article">
                                             <a href="./blog/porque-escribir">leer completo</a>
-                                            <a href="#">ver todos</a>
+                                            <a id="proyectos" href="#">ver todos</a>
                                         </div>
                                     </div>
                                 </div>
