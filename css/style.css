@@ -318,7 +318,7 @@ h5
     /* background: transparent; */
     background: linear-gradient(to right, #000000, #323232);
     background-size: 500% 500%;
-    animation: animate-background 2s infinite ease-in-out;
+    animation: animate-background 4s infinite ease-in-out;
     /* background-size: cover;
     background-position: top; */
     align-items: center;
@@ -359,13 +359,13 @@ h5
     display: flex;
     width: 180px;
     height: 33px;
-    margin-top: 0;
+    margin-bottom: 20px;
     padding-bottom: 2.4px;
     /* border: 2px solid var(--grey1); */
     border-radius: 4px;
     background: linear-gradient(to right, #000000, #141414);
     background-size: 500% 500%;
-    animation: animate-background 4s infinite ease-in-out;
+    animation: animate-background 2s infinite ease-in-out;
     font-size: 14px;
     color: var(--grey1);
     font-weight: 600;
@@ -438,12 +438,31 @@ h5
 
 .article-blog
 {
+    position: relative;
     display: flex;
     width: 100%;
     height: auto;
     margin-bottom: 30px;
     background-color: #131313;
-    border-radius: 10px 8px 8px 10px;
+    border-radius: 10px 8px 8px 10px
+}
+
+#section-featured-title
+{
+    position: absolute;
+    top: -30px;
+    display: none;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 10px 2px 10px;
+    border-radius: 8px 8px 0 0;
+    background-color: #333333;
+    color: var(--grey1);
+    align-items: center;
+    justify-content: center;
+
 }
 .article-blog-cover
 {
@@ -452,6 +471,15 @@ h5
     object-fit: cover;
     border-radius: 8px 0 0 8px;
 }
+
+.featured-article-blog-cover
+{
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
 .article-blog-info-container
 {
     display: flex;
@@ -1025,6 +1053,24 @@ h5
         width: 100%;
         border-radius: 8px 8px 0 0;
     }
+
+    #section-featured-title-desktop
+    {
+        display: none;
+    }
+
+    #section-featured-title
+    {
+        display: flex;
+        background-color: #141414;
+    }
+
+    .featured-article-blog-cover
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+
     .interactive-data
     {
         flex-direction: column;
