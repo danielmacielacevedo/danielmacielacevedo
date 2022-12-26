@@ -1,9 +1,9 @@
 :root
 {
     --dannmacolor: rgb(103, 199, 255);
-    --html-color: rgb(84, 0, 180);
-    --css-color: rgb(0, 123, 255);
-    --js-color: rgb(255, 196, 0);
+    --html-color: rgba(84, 0, 180, 0.702);
+    --css-color: rgba(0, 123, 255, 0.477);
+    --js-color: rgba(255, 196, 0, 0.56);
     --grey1: rgb(147, 147, 147);
     --dark: #000000;
     --white: #ffffff;
@@ -39,25 +39,9 @@ html::-webkit-scrollbar-track
 body
 {
     min-width: 320px;
-    /* background: red; */
-    background: linear-gradient(to right, #000000, #050505);
-    background-size: 500% 500%;
-    animation: animate-background 1s infinite ease-in-out;
+    background: var(--dark);
     color: var(--white);
     font-family: 'Helvetica', sans-serif;
-}
-
-@keyframes animate-background
-{
-    0%{
-        background-position: 0 50%;
-    } 
-    50%{
-        background-position: 100% 50%;
-    } 
-    100%{
-        background-position: 0 50%;
-    }
 }
 
 h1
@@ -321,8 +305,8 @@ h5
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* background: transparent;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.412), rgb(0, 0, 0)); */
+    /* background: transparent; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.412), rgb(0, 0, 0));
     align-items: center;
 }
 .cover-section
@@ -331,11 +315,25 @@ h5
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background: transparent;
-    /* background-image: url("../assets/cover-images/cover-dannmacode-70KB.jpg"); */
-    background-size: cover;
-    background-position: top;
+    /* background: transparent; */
+    background: linear-gradient(to right, #000000, #323232);
+    background-size: 500% 500%;
+    animation: animate-background 2s infinite ease-in-out;
+    /* background-size: cover;
+    background-position: top; */
     align-items: center;
+}
+@keyframes animate-background
+{
+    0%{
+        background-position: 0 50%;
+    } 
+    50%{
+        background-position: 100% 50%;
+    } 
+    100%{
+        background-position: 0 50%;
+    }
 }
 .info-container
 {
@@ -343,7 +341,7 @@ h5
     flex-direction: column;
     width: 90%;
     height: auto;
-    padding: 100px 0 58px;
+    padding: 100px 0 28px;
     justify-content: center;
 }
 .info-cover
@@ -353,25 +351,27 @@ h5
 }
 .info-cover p
 {
-    padding: 18px 0 10px;
+    padding: 18px 0 12px;
     font-size: 16px;
 }
 .info-cover a
 {
     display: flex;
     width: 180px;
-    height: 40px;
-    margin-top: 60px;
+    height: 33px;
+    margin-top: 0;
     padding-bottom: 2.4px;
-    border: 2px solid var(--white);
-    border-radius: 6px;
-    background: none;
+    /* border: 2px solid var(--grey1); */
+    border-radius: 4px;
+    background: linear-gradient(to right, #000000, #141414);
+    background-size: 500% 500%;
+    animation: animate-background 4s infinite ease-in-out;
     font-size: 14px;
-    color: var(--white);
+    color: var(--grey1);
     font-weight: 600;
     align-items: center;
     justify-content: center;
-
+    text-decoration: none;
 }
 .dev-p
 {
@@ -466,6 +466,14 @@ h5
     width: 100%;
     height: auto;
     border-radius: 0 8px 8px 0;
+}
+.featured-title
+{
+    display: flex;
+}
+.featured-title img
+{
+    height: 36px;
 }
 .interactive-data
 {
@@ -635,6 +643,25 @@ h5
     border-radius: 0 4px 4px 0;
 }
 
+#amar-onlineStore span:nth-child(1)
+{
+    width: 47.2%;
+    background-color: var(--html-color);
+    border-radius: 4px 0 0 4px;
+}
+#amar-onlineStore span:nth-child(2)
+{
+    width: 40.3%;
+    background-color: var(--css-color);
+    border-radius: 0 0 0 0;
+}
+#amar-onlineStore span:nth-child(3)
+{
+    width: 12.5%;
+    background-color: var(--js-color);
+    border-radius: 0 4px 4px 0;
+}
+
 #netflix-clone span:nth-child(1)
 {
     width: 86.6%;
@@ -752,7 +779,7 @@ h5
     height: auto;
     line-height: 40px;
     padding-left: 0;
-    /* justify-content: center; */
+    justify-content: center;
     /* overflow-x: scroll; */
     /* overscroll-behavior-x: contain; */
     /* scroll-snap-type: x proximity; */
@@ -819,6 +846,21 @@ h5
     width: 80px;
     height: 22px;
     margin-top: 12px;
+    background-color: #333333;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #737373;
+    text-align: center;
+}
+
+.category-article
+{
+    display: inline-block;
+    width: 140px;
+    height: 70%;
+    margin: 5px 0 5px 14px;
+    padding-top: 6px;
     background-color: #333333;
     border-radius: 4px;
     font-size: 10px;
@@ -965,7 +1007,6 @@ h5
     {
         margin-left: 20px;
     }
-
     .pinned-blogs
     {
         align-items: center;
