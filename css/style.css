@@ -316,9 +316,9 @@ h5
     width: 100%;
     height: 100%;
     /* background: transparent; */
-    background: linear-gradient(to right, #000000, #323232);
+    /* background: linear-gradient(to right, #000000, #323232);
     background-size: 500% 500%;
-    animation: animate-background 4s infinite ease-in-out;
+    animation: animate-background 4s infinite ease-in-out; */
     /* background-size: cover;
     background-position: top; */
     align-items: center;
@@ -365,7 +365,7 @@ h5
     border-radius: 4px;
     background: linear-gradient(to right, #000000, #141414);
     background-size: 500% 500%;
-    animation: animate-background 2s infinite ease-in-out;
+    animation: animate-background 1s infinite ease-in-out;
     font-size: 14px;
     color: var(--grey1);
     font-weight: 600;
@@ -674,19 +674,19 @@ h5
 
 #amar-onlineStore span:nth-child(1)
 {
-    width: 47.2%;
+    width: 45.2%;
     background-color: var(--html-color);
     border-radius: 4px 0 0 4px;
 }
 #amar-onlineStore span:nth-child(2)
 {
-    width: 40.3%;
+    width: 38.3%;
     background-color: var(--css-color);
     border-radius: 0 0 0 0;
 }
 #amar-onlineStore span:nth-child(3)
 {
-    width: 12.5%;
+    width: 16.5%;
     background-color: var(--js-color);
     border-radius: 0 4px 4px 0;
 }
