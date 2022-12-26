@@ -48,6 +48,7 @@ h1
 {
     font-size: 40px;
     font-weight: 700;
+    color: rgba(255, 255, 255, 0.332);
 }
 h2
 {
@@ -112,6 +113,30 @@ h5
     height: 50px;
     margin: 10px 0;
     border-radius: 50px;
+}
+.nav-left-container
+{
+    display: flex;
+    text-decoration: none;
+}
+.nickname
+{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.332);
+    margin-left: 20px;
+    align-self: center;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+    transform: translateY(18px);
+}
+.nickname.on
+{
+    opacity: 1;
+    transition: all .1s ease-in-out;
+    transform: translateX(0px);
+
 }
 .nav-links
 {
