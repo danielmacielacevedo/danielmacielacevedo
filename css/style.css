@@ -359,7 +359,7 @@ h5
     display: flex;
     width: 180px;
     height: 33px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding-bottom: 2.4px;
     /* border: 2px solid var(--grey1); */
     border-radius: 4px;
@@ -439,6 +439,7 @@ h5
 .article-blog
 {
     position: relative;
+    z-index: -1;
     display: flex;
     width: 100%;
     height: auto;
