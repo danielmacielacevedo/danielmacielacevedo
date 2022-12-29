@@ -340,6 +340,8 @@ h5
     width:100%;
     height:100%;
     display:block;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .stars {
     background: transparent url(../assets/404/stars.png) repeat top center;
@@ -368,6 +370,8 @@ h5
     width: 100%;
     height: 80vh;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .title-404
 {
