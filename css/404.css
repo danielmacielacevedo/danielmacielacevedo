@@ -324,29 +324,265 @@ h5
 /* visuals 404!!! */
 .visuals-container-404
 {
+    position: relative;
+    z-index: -3;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to top right, #000000, #001aff96);
-    background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    overflow: hidden;
+}
+.stars, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+}
+.stars {
+    background: transparent url(../assets/404/stars.png) repeat top center;
+    z-index:-3;
+}
+.twinkling{
+    background:transparent url(../assets/404/twinkling.png) repeat top center;
+    z-index:-2;
+    animation:move-twink-back 200s linear infinite;
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.visuals-404
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .linear-gradient-404
 {
+    position: fixed;
+    /* z-index: -1; */
+    bottom: 0;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 .title-404
 {
     display: flex;
+    position: relative;
+    z-index: -2;
     width: 100%;
     height: auto;
+    padding: 150px 20px 0 20px;
     justify-content: center;
 }
 .title-404 span
 {
     font-size: 200px;
     font-weight: 600;
+    align-self: center;
+}
+.title-404 span:nth-child(2)
+{
+    width: 200px;
+}
+.title-404 img
+{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 140px;
+    animation: planetDaniel 18s infinite ease-in-out;
+}
+@keyframes planetDaniel
+{
+    0%{
+        rotate: 50deg;
+        scale: 1;
+    } 
+    25%{
+        /* rotate: 60deg; */
+        scale: 1.1;
+    } 
+    50%{
+        rotate: 80deg;
+    }
+    75%{
+        /* rotate: 40deg; */
+    }
+    100%{
+        rotate: 50deg;
+        scale: 1;
+    }
+}
+.astronaut-404
+{
+    display: flex;
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.astronaut-404 img:nth-child(1)
+{
+    position: absolute;
+    width: 250px;
+    top: -120px;
+    left: 50%;
+    rotate: -40deg;
+    animation: astronaut1-404 18s infinite ease-in-out;
+}
+@keyframes astronaut1-404
+{
+    0%{
+        rotate: -40deg;
+        scale: 1;
+    } 
+    25%{
+        /* rotate: 60deg; */
+        scale: .9;
+    } 
+    50%{
+        rotate: -20deg;
+    }
+    75%{
+        rotate: -35deg;
+    }
+    100%{
+        rotate: -40deg;
+        scale: 1;
+    }
+}
+
+.astronaut-404 img:nth-child(2)
+{
+    position: absolute;
+    width: 150px;
+    top: -120px;
+    left: 24%;
+    rotate: -40deg;
+    transform: scaleX(-1);
+    animation: astronaut2-404 18s infinite ease-in-out;
+}
+@keyframes astronaut2-404
+{
+    0%{
+        rotate: 40deg;
+        scale: 1;
+    } 
+    19%{
+        rotate: 15deg;
+        /* scale: .9; */
+    } 
+    40%{
+        rotate: 20deg;
+    }
+    85%{
+        rotate: 35deg;
+        scale: .8deg;
+    }
+    100%{
+        rotate: 40deg;
+        scale: 1;
+    }
+}
+
+.astronaut-404 img:nth-child(3)
+{
+    position: absolute;
+    width: 150px;
+    top: 40px;
+    left: 37%;
+    rotate: 0deg;
+    animation: nave-404 18s infinite ease-in-out;
+}
+@keyframes nave-404
+{
+    0%{
+        rotate: 0deg;
+        scale: 1;
+    } 
+    19%{
+        /* rotate: 15deg; */
+        /* scale: .9; */
+    } 
+    60%{
+        rotate: 20deg;
+        /* scale: 1.2; */
+    }
+    75%{
+        scale: 1.2;
+    }
+    100%{
+        rotate: 0deg;
+        scale: 1;
+    }
+}
+
+.astronaut-404 img:nth-child(4)
+{
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    top: -170px;
+    right: 26%;
+    rotate: 11deg;
+    animation: astronaut3-404 16s infinite ease-in-out;
+}
+@keyframes astronaut3-404
+{
+    0%{
+        rotate: 10deg;
+        scale: .9;
+    } 
+    28%{
+        /* rotate: 60deg; */
+        scale: 1;
+    } 
+    74%{
+        rotate: -10deg;
+    }
+    75%{
+        /* rotate: -35deg; */
+    }
+    100%{
+        rotate: 10deg;
+        scale: .9;
+    }
+}
+
+.astronaut-404 img:nth-child(5)
+{
+    position: absolute;
+    width: 50px;
+    top: -48px;
+    left: 33%;
+    rotate: -10deg;
+    animation: mmm-404 18s infinite ease-in-out;
+}
+@keyframes mmm-404
+{
+    0%{
+        rotate: -10deg;
+        scale: 1;
+    } 
+    25%{
+        /* rotate: 60deg; */
+        scale: .9;
+    } 
+    50%{
+        rotate: 20deg;
+    }
+    75%{
+        /* rotate: -35deg; */
+    }
+    100%{
+        rotate: -10deg;
+        scale: 1;
+    }
 }
 
 
@@ -366,6 +602,7 @@ h5
     display: flex;
     flex-direction: column;
     position: fixed;
+    /* z-index: -1; */
     bottom: 231px;
     width: 100%;
     height: auto;
@@ -417,7 +654,7 @@ h5
     padding-bottom: 2.4px;
     /* border: 2px solid var(--grey1); */
     border-radius: 4px;
-    background: linear-gradient(to right, #000000, #141414);
+    background: linear-gradient(to right, #000000, #333333);
     background-size: 500% 500%;
     animation: animate-background 1s infinite ease-in-out;
     font-size: 14px;
@@ -430,22 +667,14 @@ h5
 .dev-p
 {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    line-height: 18px;
 }
-.dev-p p:nth-child(1)
+.dev-p span
 {
-    color: var(--white);
-}
-.dev-p p:nth-child(2)
-{
-    margin: 0 5px;
-}
-.dev-p p:nth-child(3)
-{
-    color: var(--white);
-}
-.dev-p p:nth-child(4)
-{
-    margin: 0 5px;
+    color: var(--grey1);
+    font-size: 16px;
 }
 .percentage-container #data-cover-h4
 {
@@ -506,7 +735,7 @@ h5
         /* left: 3.2; */
     } 
     50%{
-        width: 19.2%;
+        width: 26%;
     }
     75%{
         /* width: 3.2.2%; */
@@ -537,7 +766,7 @@ h5
         /* width: 9.2%; */
     }
     75%{
-        width: 10.2%;
+        width: 33%;
     }
     100%{
         width: 50.5%;
@@ -556,7 +785,7 @@ h5
 @keyframes position-cover3
 {
     0%{
-        width: 12.2%;
+        width: 18%;
     } 
     25%{
         width: 92.2%;
@@ -568,7 +797,7 @@ h5
         width: 92.2%;
     }
     100%{
-        width: 12.2%;
+        width: 18%;
     }
 }
 
@@ -611,8 +840,13 @@ h5
 {
     font-size: 16px;
     font-weight: 100;
-    margin: 50px 0;
+    margin: 30px 0;
     text-align: center;
+    line-height: 24px;
+}
+#derechos-imagenes
+{
+    color: rgb(74, 74, 74);
 }
 .footer-links
 {
@@ -683,7 +917,7 @@ h5
     }
     h2
     {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
         margin-bottom: 14px;
     }
@@ -695,6 +929,88 @@ h5
     .nav-links-container
     {
         display: none;
+    }
+
+    .title-404 {
+        display: flex;
+        position: relative;
+        z-index: -2;
+        width: 100%;
+        height: auto;
+        padding: 127px 20px 0 20px;
+        justify-content: center;
+    }
+
+    .title-404 img
+    {
+        top: 120px;
+    }
+
+    @keyframes planetDaniel
+    {
+        0%{
+            rotate: 50deg;
+            scale: .7;
+        } 
+        25%{
+            /* rotate: 60deg; */
+            scale: .9;
+        } 
+        50%{
+            rotate: 80deg;
+        }
+        75%{
+            /* rotate: 40deg; */
+        }
+        100%{
+            rotate: 50deg;
+            scale: .7;
+        }
+    }
+
+    .astronaut-404 img:nth-child(1)
+    {
+        top: -148px;
+        left: 50%;
+    }
+
+    .astronaut-404 img:nth-child(2)
+    {
+        top: -160px;
+        left: 4%;
+    }
+
+    .astronaut-404 img:nth-child(3)
+    {
+        position: absolute;
+        z-index: -1;
+        width: 90px;
+        top: 16px;
+        left: 16%;
+        rotate: 0deg;
+        animation: nave-404 18s infinite ease-in-out;
+    }
+
+    .astronaut-404 img:nth-child(4)
+    {
+        top: -280px;
+        right: 20%;
+    }
+
+    .astronaut-404 img:nth-child(5)
+    {
+        top: -80px;
+        left: 40%;
+    }
+
+    .dev-p
+    {
+        line-height: 6px;
+    }
+    .dev-p span
+    {
+        color: white;
+        font-size: 12px;
     }
 
     .footer-links
