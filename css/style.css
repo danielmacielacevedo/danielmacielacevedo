@@ -388,7 +388,7 @@ h5
     padding-bottom: 2.4px;
     /* border: 2px solid var(--grey1); */
     border-radius: 4px;
-    background: linear-gradient(to right, #000000, #141414);
+    background: linear-gradient(to right, #000000, #333333);
     background-size: 500% 500%;
     animation: animate-background 1s infinite ease-in-out;
     font-size: 14px;
