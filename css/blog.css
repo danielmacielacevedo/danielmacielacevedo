@@ -236,18 +236,18 @@ dannmacode
     position: absolute;
     width: 24px;
     height: 2px;
-    background: var(--white);
+    /* background: var(--white); */
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
     transition: all .5s ease-in-out;
 }
 .menu-button-burger::before
 {
-    transform: translateY(8px);
+    transform: translateY(4px);
 }
 .menu-button-burger::after
 {
-    transform: translateY(-8px);
+    transform: translateY(-4px);
 }
 
 /* menu button animation */
