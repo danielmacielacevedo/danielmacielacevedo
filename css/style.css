@@ -674,12 +674,35 @@ h5
     position: relative;
     z-index: -1;
 }
+.object-image
+{
+    display: flex;
+    justify-content: center;
+}
 #featured-amar
+{
+    display: flex;
+    position: absolute;
+    height: 150px;
+    top: -10px;
+}
+#background-video
+{
+    opacity: .4;
+    margin-bottom: -2px;
+}
+#featured-casmac
+{
+    display: flex;
+    position: absolute;
+    height: 150px;
+    top: -10px;
+}
+#featured-saru
 {
     position: absolute;
     height: 150px;
     top: -10px;
-    left: 40%;
 }
 .article-project-info-container
 {
@@ -990,7 +1013,8 @@ h5
 }
 
 .category-article,
-.category-article-inprocess
+.category-article-inprocess,
+.category-article-featured
 {
     display: inline-block;
     width: 140px;
@@ -1010,6 +1034,11 @@ h5
 .category-article-inprocess
 {
     background-color: var(--nodejs-color);
+    color: var(--dark);
+}
+.category-article-featured
+{
+    background-color: #9B46DE;
     color: var(--dark);
 }
 
