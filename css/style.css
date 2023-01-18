@@ -386,7 +386,7 @@ h5
 }
 .info-cover p
 {
-    padding: 5px 0 12px;
+    padding: 5px 0 30px;
     font-size: 16px;
 }
 .info-cover a
@@ -434,6 +434,59 @@ h5
     color: rgba(255, 255, 255, 0.466);
     margin: 5px 5px 0 0;
     align-self: flex-end;
+}
+.certificates-container-info
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.certifiedby
+{
+    display: flex;
+    gap: 10px;
+    margin: 8px 0 10px 0;
+}
+.certificate
+{
+    display: flex;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    /* padding: 0 10px 0 7px; */
+    background-color: #333333;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+#by-meta span,
+#by-google span,
+#by-platzi span
+{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-right: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+#by-meta span
+{
+    background-image: url(../assets/certificatebyMeta.jpg);
+}
+#by-google span
+{
+    background-image: url(../assets/certificatebyGoogle.jpg);
+}
+#by-platzi span
+{
+    background-image: url(../assets/certificatebyPlatzi.jpg);
 }
 
 /* general */
