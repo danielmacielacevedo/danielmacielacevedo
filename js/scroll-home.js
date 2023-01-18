@@ -11,7 +11,7 @@ window.addEventListener('scroll', function(){
     //     nameDaniel.classList.add('off');
     // }
 
-    if(window.scrollY > 74){
+    if(window.scrollY > 168){
         nameDaniel.classList.add('on');
     } else { 
         nameDaniel.classList.remove('on');
