@@ -124,10 +124,12 @@ h5
 .nickname
 {
     display: block;
+    position: absolute;
+    left: 90px;
     font-size: 20px;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.332);
-    margin-left: 20px;
+    /* margin-left: 20px; */
     align-self: center;
     opacity: 0;
     transition: all .1s ease-in-out;
@@ -370,6 +372,7 @@ h5
     height: auto;
     padding: 100px 0 16px;
     justify-content: center;
+    align-items: center;
 }
 .info-cover
 {
@@ -1089,7 +1092,7 @@ h5
 {
     h1
     {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
     }
     h2
@@ -1106,6 +1109,10 @@ h5
     .nav-links-container
     {
         display: none;
+    }
+    .nickname
+    {
+        position: unset;
     }
 
     .section-container
