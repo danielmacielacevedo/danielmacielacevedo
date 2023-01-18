@@ -1,4 +1,4 @@
-const nameDaniel = document.querySelector(' header > nav > div > a > span');
+const nameDaniel = document.querySelector(' header > nav > div > span');
 let prevY = window.scrollY;
 
 window.addEventListener('scroll', function(){
@@ -11,7 +11,7 @@ window.addEventListener('scroll', function(){
     //     nameDaniel.classList.add('off');
     // }
 
-    if(window.scrollY > 74){
+    if(window.scrollY > 70){
         nameDaniel.classList.add('on');
     } else { 
         nameDaniel.classList.remove('on');
