@@ -1,7 +1,7 @@
 <h1 align="center" >
 👋  Hi, I'm @danielmacielacevedo
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Helvetica-bold&center=true&lines=Front-End+Developer+%F0%9F%92%BB;Certified+by+Meta,+Google+&+Platzi;Never+stop+learning;Platzi+Student)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Helvetica-bold&center=true&color=#0E1117&lines=Front-End+Developer+%F0%9F%92%BB;Certified+by+Meta,+Google+and+Platzi;Never+stop+learning)](https://git.io/typing-svg)
 </h1>
 🌱   I love never stop learning, 📫   How to reach me: byanndannma@gmail.com, 🖋   This is my personal blog: https://danielmacielacevedo.com/
 
