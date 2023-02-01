@@ -1257,7 +1257,7 @@ h5
     border-radius: 8px;
     cursor: pointer;
 }
-.buttons-form input:first-child
+#submit-form-btn
 {
     background: var(--white);
     color: var(--dark);
