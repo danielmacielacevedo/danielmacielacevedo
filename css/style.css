@@ -1259,7 +1259,7 @@ h5
     border: 2px solid var(--white); 
     border-radius: 8px !important;
 }
-.buttons-form input:last-child
+#button-form2
 {
     width: 100%;
     height: 33px;
