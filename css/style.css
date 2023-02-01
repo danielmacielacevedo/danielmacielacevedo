@@ -1248,16 +1248,23 @@ h5
 }
 #button-form
 {
+    display: flex;
     width: 100%;
+    min-width: 64px;
     height: 33px;
+    /* margin: 20px 0 0 auto;
+    padding: 0 20px 2.4px 20px; */
+    border: none;
+    border-radius: 8px;
+    background: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    background: var(--white);
     color: var(--dark);
-    border: 2px solid var(--white); 
-    border-radius: 8px !important;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 #button-form2
 {
