@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header class="header-container" id="mobile-home">
@@ -517,12 +518,9 @@
                                 <span>mensaje</span>
                                 <i></i>
                             </div>
+                            <div class="g-recaptcha" data-theme="dark" data-sitekey="6Le-ZUIkAAAAADVtPZJIn-UH1PIyTqCXUtERPpHv"></div>
                             <div class="buttons-form">
-                                <button class="g-recaptcha" 
-                                    data-sitekey="6LdvQkIkAAAAAAFhMg5XA8q-o3SnF2hhcRyLGg-Y" 
-                                    data-callback='onSubmit' 
-                                    data-action='submit'>enviar mensaje
-                                </button>
+                                <input type="submit" value="enviar mensaje">
                                 <input type="reset" value="borrar todo">
                             </div>
                         </form>
@@ -563,11 +561,6 @@
     <script src="./js/menu-mobile-icon.js"></script>
     <script src="./js/scroll.js"></script>
     <!-- <script src="./js/form.js"></script> -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        function onSubmit(token) {
-          document.getElementById("contact-form").submit();
-        }
-    </script>
+    
 </body>
 </html>
