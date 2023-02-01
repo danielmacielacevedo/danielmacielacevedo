@@ -1255,7 +1255,7 @@ h5
     /* margin: 20px 0 0 auto;
     padding: 0 20px 2.4px 20px; */
     border: none;
-    border-radius: 8px;
+    border-radius: 8px !important;
     background: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -1598,6 +1598,10 @@ h5
     .slider-projects-container::-webkit-scrollbar
     {
         display: none;
+    }
+    #button-form
+    {
+        border-radius: 8px !important;
     }
     
 
