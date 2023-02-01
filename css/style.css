@@ -1261,6 +1261,7 @@ h5
 {
     background: var(--white);
     color: var(--dark);
+    border: 2px solid var(--white);
     border-radius: 8px;
 }
 .buttons-form input:last-child
