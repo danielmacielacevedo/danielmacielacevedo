@@ -1257,6 +1257,11 @@ h5
     border-radius: 8px;
     cursor: pointer;
 }
+.buttons-form input:first-child
+{
+    background: var(--white);
+    color: var(--dark);
+}
 .buttons-form input:last-child
 {
     background: transparent;
