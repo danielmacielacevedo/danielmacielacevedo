@@ -1246,7 +1246,7 @@ h5
     display: flex;
     gap: 20px;
 }
-.buttons-form input
+#button-form
 {
     width: 100%;
     height: 33px;
@@ -1254,18 +1254,8 @@ h5
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-}
-.buttons-form input:first-child#submit-form-btn
-{
     background: var(--white);
     color: var(--dark);
-    border: 2px solid var(--white);
-    border-radius: 8px;
-}
-.buttons-form input:last-child
-{
-    background: transparent;
-    color: var(--white);
     border: 2px solid var(--white);
     border-radius: 8px;
 }
