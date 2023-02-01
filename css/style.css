@@ -850,7 +850,7 @@ h5
 {
     width: 37.3%;
     background-color: #131313;
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #danielmacielacevedo-com span:nth-child(2)
 {
@@ -862,27 +862,27 @@ h5
 {
     width: 12.2%;
     background-color: #333333;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 #page404 span:nth-child(1)
 {
     width: 30%;
     background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #page404 span:nth-child(2)
 {
     width: 70%;
     background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 #amar-onlineStore span:nth-child(1)
 {
     width: 45.2%;
     background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #amar-onlineStore span:nth-child(2)
 {
@@ -894,46 +894,46 @@ h5
 {
     width: 20.5%;
     background-color: var(--js-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 #netflix-clone span:nth-child(1)
 {
     width: 86.6%;
     background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #netflix-clone span:nth-child(2)
 {
     width: 26.5%;
     background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 #batabit-crypto span:nth-child(1)
 {
     width: 41.1%;
     background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #batabit-crypto span:nth-child(2)
 {
     width: 58.9%;
     background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 #youtube-clone span:nth-child(1)
 {
     width: 80.5%;
     background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
+    border-radius: 8px 0 0 8px;
 }
 #youtube-clone span:nth-child(2)
 {
     width: 29.5%;
     background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 8px 8px 0;
 }
 
 
@@ -1027,7 +1027,7 @@ h5
     width: 168px;
     height: 208px;
     object-fit: contain;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .content-slider
@@ -1086,7 +1086,7 @@ h5
     height: 22px;
     margin-top: 12px;
     background-color: #333333;
-    border-radius: 4px;
+    border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 600;
@@ -1103,7 +1103,7 @@ h5
     height: 70%;
     margin: 5px 0 5px 14px;
     padding-top: 6px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 600;
