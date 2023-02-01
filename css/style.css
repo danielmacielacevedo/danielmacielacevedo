@@ -1266,6 +1266,7 @@ h5
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
+    border-collapse: separate;
 }
 .buttons-form input:last-child
 {
