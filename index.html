@@ -494,7 +494,9 @@
                         <span>contacto</span>
                     </div>
                     <div class="form-container">
-                        <form id="contact-form" action="https://formspree.io/f/mlekgork" method="POST">
+                        <!-- https://formspree.io/f/mlekgork -->
+                        <!-- method="POST" -->
+                        <form id="contact-form" action="">
                             <div class="inputBox">
                                 <input name="Nombre" type="text" required="required">
                                 <span>nombre</span>
@@ -515,12 +517,21 @@
                                 <span>mensaje</span>
                                 <i></i>
                             </div>
+                            <button class="g-recaptcha" 
+                                data-sitekey="6LdvQkIkAAAAAAFhMg5XA8q-o3SnF2hhcRyLGg-Y" 
+                                data-callback='onSubmit' 
+                                data-action='submit'>Submit
+                            </button>
                             <div class="buttons-form">
                                 <input type="submit" value="enviar mensaje">
                                 <input type="reset" value="borrar todo">
                             </div>
                         </form>
                     </div>
+                </div>
+
+                <div id="dma-form">
+                    
                 </div>
 
 
@@ -552,5 +563,12 @@
 
     <script src="./js/menu-mobile-icon.js"></script>
     <script src="./js/scroll.js"></script>
+    <!-- <script src="./js/form.js"></script> -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+          document.getElementById("contact-form").submit();
+        }
+    </script>
 </body>
 </html>
