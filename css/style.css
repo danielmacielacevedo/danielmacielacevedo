@@ -1261,12 +1261,14 @@ h5
 {
     background: var(--white);
     color: var(--dark);
+    border-radius: 8px;
 }
 .buttons-form input:last-child
 {
     background: transparent;
     color: var(--white);
     border: 2px solid var(--white);
+    border-radius: 8px;
 }
 #submit-dma-confirm
 {
