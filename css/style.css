@@ -1253,11 +1253,9 @@ h5
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    border: none;
-    border-radius: 8px;
     cursor: pointer;
 }
-#submit-form-btn
+.buttons-form input:first-child#submit-form-btn
 {
     background: var(--white);
     color: var(--dark);
