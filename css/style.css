@@ -1326,6 +1326,13 @@ h5
 {
     transform: rotate(-45deg);
 }
+.g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    margin-bottom: -18px;
+}
 
 
 
