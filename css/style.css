@@ -500,6 +500,14 @@ h5
 {
     background-image: url(../assets/certificatebyPlatzi.jpg);
 }
+.cover-buttons
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    justify-content: center;
+}
 
 /* general */
 .general-sections
@@ -530,8 +538,17 @@ h5
     font-size: 20px;
     font-weight:700;
     color: var(--white);
-    margin: 8px 0 30px 0;
+    margin: 0 0 40px 0;
     text-align: center;
+}
+
+.section-container .pinned-projects:nth-child(1)
+{
+    margin-bottom: 20px;
+}
+.section-container .pinned-projects:nth-child(2)
+{
+    margin-bottom: 40px;
 }
 
 /* article blog */
@@ -617,6 +634,7 @@ h5
 .featured-title
 {
     display: flex;
+    justify-content: space-between;
 }
 .featured-title img
 {
@@ -692,15 +710,8 @@ h5
 .pinned-projects
 {
     display: flex;
-    margin-bottom: 20px;
     gap: 20px;
 }
-/* .pinned-projects article:nth-child(2),
-.pinned-projects article:nth-child(3)
-{
-    margin: 0 0 0 20px;
-} */
-
 .article-project
 {
     display: flex;
@@ -849,7 +860,7 @@ h5
 #danielmacielacevedo-com span:nth-child(1)
 {
     width: 37.3%;
-    background-color: #131313;
+    background-color: #000000;
     border-radius: 8px 0 0 8px;
 }
 #danielmacielacevedo-com span:nth-child(2)
@@ -868,75 +879,34 @@ h5
 #page404 span:nth-child(1)
 {
     width: 30%;
-    background-color: var(--html-color);
+    background-color: #000000;
     border-radius: 8px 0 0 8px;
 }
 #page404 span:nth-child(2)
 {
     width: 70%;
-    background-color: var(--css-color);
+    background-color: #232323;
     border-radius: 0 8px 8px 0;
 }
 
 #amar-onlineStore span:nth-child(1)
 {
     width: 45.2%;
-    background-color: var(--html-color);
+    background-color: #000000;
     border-radius: 8px 0 0 8px;
 }
 #amar-onlineStore span:nth-child(2)
 {
     width: 38.3%;
-    background-color: var(--css-color);
+    background-color: #232323;
     border-radius: 0 0 0 0;
 }
 #amar-onlineStore span:nth-child(3)
 {
     width: 20.5%;
-    background-color: var(--js-color);
+    background-color: #333333;
     border-radius: 0 8px 8px 0;
 }
-
-#netflix-clone span:nth-child(1)
-{
-    width: 86.6%;
-    background-color: var(--html-color);
-    border-radius: 8px 0 0 8px;
-}
-#netflix-clone span:nth-child(2)
-{
-    width: 26.5%;
-    background-color: var(--css-color);
-    border-radius: 0 8px 8px 0;
-}
-
-#batabit-crypto span:nth-child(1)
-{
-    width: 41.1%;
-    background-color: var(--html-color);
-    border-radius: 8px 0 0 8px;
-}
-#batabit-crypto span:nth-child(2)
-{
-    width: 58.9%;
-    background-color: var(--css-color);
-    border-radius: 0 8px 8px 0;
-}
-
-#youtube-clone span:nth-child(1)
-{
-    width: 80.5%;
-    background-color: var(--html-color);
-    border-radius: 8px 0 0 8px;
-}
-#youtube-clone span:nth-child(2)
-{
-    width: 29.5%;
-    background-color: var(--css-color);
-    border-radius: 0 8px 8px 0;
-}
-
-
 
 .interactive-data
 {
@@ -1015,8 +985,10 @@ h5
     width: 100%;
     height: auto;
     line-height: 40px;
+    margin-bottom: 40px;
     padding-left: 0;
     justify-content: center;
+    gap: 20px;
     /* overflow-x: scroll; */
     /* overscroll-behavior-x: contain; */
     /* scroll-snap-type: x proximity; */
@@ -1034,12 +1006,12 @@ h5
 {
     display: flex;
     flex-direction: column;
-    width: auto;
-    max-width: 208px;
+    width: 100%;
+    max-width: 204px;
     height: auto;
     background-color: #131313;
     border-radius: 8px;
-    margin: 0 20px 20px 0;
+    /* margin: 0 20px 20px 0; */
 
 }
 
@@ -1082,9 +1054,10 @@ h5
 .content-slider-data p:nth-child(3)
 {
     display: inline-block;
-    width: 80px;
-    height: 22px;
+    width: auto;
+    height: auto;
     margin-top: 12px;
+    padding: 0 8px;
     background-color: #333333;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
@@ -1098,16 +1071,18 @@ h5
 .category-article-inprocess,
 .category-article-featured
 {
-    display: inline-block;
+    display: flex;
     width: 140px;
     height: 70%;
     margin: 5px 0 5px 14px;
-    padding-top: 6px;
+    /* padding-top: 6px; */
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 600;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .category-article
 {
@@ -1572,16 +1547,7 @@ h5
     {
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px;
     }
-    /* .pinned-projects article:nth-child(2)
-    {
-        margin: 20px 0 0 0;
-    }
-    .pinned-projects article:nth-child(3)
-    {
-        margin: 20px 0 0 0;
-    } */
 
     .slider-projects-container
     {
