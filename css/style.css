@@ -1061,17 +1061,20 @@ h5
 
 .slider-projects-container img
 {
+    display: flex;
     width: 128px;
     height: 260px;
     object-fit: contain;
     border-radius: 8px;
+    justify-content: center;
+    align-self: center;
 }
 
 .content-slider
 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 174px;
     max-width: 204px;
     height: auto;
     background-color: #131313;
