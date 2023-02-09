@@ -1,5 +1,3 @@
-console.log("hola guap@ <3")
-
 const menuButton = document.querySelector('.menu-button');
 const menuContent = document.querySelector('.menu-mobile-background');
 let menuOpen = false;
