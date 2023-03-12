@@ -757,7 +757,9 @@ h5
 }
 .skills .pinned-skills:nth-child(2)
 {
+    max-width: 1000px;
     margin-bottom: 40px;
+    align-self: center;
 }
 .skill-container
 {
@@ -1068,6 +1070,7 @@ h5
     border-radius: 8px;
     justify-content: center;
     align-self: center;
+    margin-bottom: 6px;
 }
 
 .content-slider
@@ -1121,10 +1124,10 @@ h5
 
 .content-slider-data p:nth-child(3)
 {
-    display: inline-block;
-    width: auto;
+    display: flex;
+    width: fit-content;
     height: auto;
-    margin-top: 12px;
+    margin: 12px 0 14px 0;
     padding: 0 8px;
     background-color: #333333;
     border-radius: 8px;
@@ -1133,6 +1136,7 @@ h5
     font-weight: 600;
     color: #737373;
     text-align: center;
+    align-items: center;
 }
 
 .category-article,
@@ -1393,10 +1397,26 @@ h5
     -webkit-transform-origin:0 0;
     margin-bottom: -18px;
 }
-
-
-
-
+.icon-project
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 6px;
+    margin-left: -8.5px;
+    border-radius: 8px 0 0 8px;
+}
+#meta-icon-project
+{
+    background-image: url('../assets/certificatebyMeta.jpg');
+}
+#platzi-icon-project
+{
+    background-image: url('../assets/certificatebyPlatzi.jpg');
+}
 
 
 
