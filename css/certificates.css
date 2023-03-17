@@ -540,6 +540,7 @@ h5
 .featured-title
 {
     display: flex;
+    justify-content: space-between;
 }
 .featured-title img
 {
