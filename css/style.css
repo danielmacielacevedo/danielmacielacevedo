@@ -23,7 +23,6 @@ html
 {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
-
 }
 
 html::-webkit-scrollbar
@@ -78,18 +77,41 @@ h5
 #textcolor-html
 {
     color: var(--html-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 #textcolor-css
 {
     color: var(--css-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#textcolor-css span
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/css.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
 }
 #textcolor-js
 {
     color: var(--js-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 #textcolor-react
 {
     color: var(--react-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* header */
@@ -1412,7 +1434,7 @@ h5
     background-size: cover;
     margin-right: 6px;
     margin-left: -8.5px;
-    border-radius: 8px 0 0 8px;
+    border-radius: 4px 0 0 4px;
 }
 #meta-icon-project
 {
