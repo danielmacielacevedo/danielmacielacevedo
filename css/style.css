@@ -3,6 +3,7 @@
     --dannmacolor: rgb(103, 199, 255);
     --html-color: rgba(84, 0, 180, 0.702);
     --css-color: rgba(0, 123, 255, 0.477);
+    --react-color: rgba(9, 125, 164, 0.488);
     --js-color: rgba(255, 196, 0, 0.56);
     --nodejs-color: rgba(95, 168, 70, 0.597);
     --grey1: rgb(147, 147, 147);
@@ -85,6 +86,10 @@ h5
 #textcolor-js
 {
     color: var(--js-color);
+}
+#textcolor-react
+{
+    color: var(--react-color);
 }
 
 /* header */
