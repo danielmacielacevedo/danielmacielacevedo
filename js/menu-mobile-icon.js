@@ -16,20 +16,28 @@ menuButton.addEventListener('click', () =>
     }
 });
 
-const menuProjects = document.querySelector('.mobile-projects');
+const link1 = document.querySelector('.link1');
 
-menuProjects.addEventListener('click', () => 
+link1.addEventListener('click', () => 
 {
         menuButton.classList.remove('open');
         menuContent.classList.remove('open');
         menuOpen = false;
 });
 
-const menuHome = document.querySelector('.mobile-home');
+const link2 = document.querySelector('.link2');
 
-menuHome.addEventListener('click', () => 
+link2.addEventListener('click', () => 
 {
         menuButton.classList.remove('open');
         menuContent.classList.remove('open');
         menuOpen = false;
 });
+
+const link3 = document.querySelector('.link3');
+
+link3.addEventListener('click', () => {
+        menuButton.classList.remove('open');
+        menuContent.classList.remove('open');
+        menuOpen = false;
+})
