@@ -374,6 +374,10 @@ h5
     justify-content: center;
     align-items: center;
 }
+#certificates-title
+{
+    padding: 0 0 16px;
+}
 .info-cover
 {
     display: flex;
