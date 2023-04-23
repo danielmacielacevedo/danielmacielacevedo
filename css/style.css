@@ -110,10 +110,18 @@ h5
     align-items: center;
     gap: 10px;
 }
+#textcolor-web
+{
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 #textcolor-css span,
 #textcolor-js span,
 #textcolor-react span,
-#textcolor-webflow span
+#textcolor-webflow span,
+#textcolor-web span
 {
     display: block;
     width: 20px;
@@ -123,11 +131,18 @@ h5
     background-repeat: no-repeat;
     border-radius: 4px;
 }
-#textcolor-css span
+#textcolor-html span,
+#textcolor-web span:nth-child(1)
+{
+    background-image: url('../assets/icons/html.jpg');
+}
+#textcolor-css span,
+#textcolor-web span:nth-child(2)
 {
     background-image: url('../assets/icons/css.jpg');
 }
-#textcolor-js span
+#textcolor-js span,
+#textcolor-web span:nth-child(3)
 {
     background-image: url('../assets/icons/javascript.jpg');
 }
@@ -1469,6 +1484,10 @@ h5
 #platzi-icon-project
 {
     background-image: url('../assets/certificatebyPlatzi.jpg');
+}
+#daniel-icon-project
+{
+    background-image: url('../assets/dannmacode-black.jpg');
 }
 
 
