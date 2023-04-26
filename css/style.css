@@ -1004,6 +1004,13 @@ h5
     border-radius: 0 8px 8px 0;
 }
 
+#manantial span:nth-child(1)
+{
+    width: 100%;
+    background-color: var(--react-color);
+    border-radius: 8px;
+}
+
 #page404 span:nth-child(1)
 {
     width: 30%;
@@ -1208,6 +1215,7 @@ h5
 }
 
 .category-article,
+.category-article-react,
 .category-article-inprocess,
 .category-article-featured
 {
@@ -1228,6 +1236,11 @@ h5
 {
     background-color: #333333;
     color: #737373;
+}
+.category-article-react
+{
+    background-color: var(--react-color);
+    color: var(--white);
 }
 .category-article-inprocess
 {
