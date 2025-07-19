@@ -1,9 +1,22 @@
-<h1 align="center" >
-👋  Hi, I'm @danielmacielacevedo
+### Hi, I'm Daniel Maciel 👋
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Helvetica-bold&color=1977F2&center=true&lines=Front-End+Developer+%F0%9F%92%BB;Certified+by+Meta,+Google+and+Platzi;Never+stop+learning)](https://git.io/typing-svg)
-</h1>
-🌱   I love never stop learning, 📫   How to reach me: byanndannma@gmail.com
+I'm a **Software Developer and SaaS Founder** based in Fort Worth, Texas, with over a decade of experience turning complex ideas into intuitive, high-performance software.
 
+My passion is the entire product lifecycle, from initial architecture to final deployment. I specialize in building scalable web applications with a focus on clean code and exceptional user experience. While many of my largest projects, including my SaaS platform **[We Are Velier](https://wearevelier.com)**, are in private repositories, my work is defined by a commitment to quality and solving real-world problems.
 
-[**LinkedIn**](https://linkedin.com/in/danielmacielacevedo "LinkedIn") | [**Instagram**](http://instagram.com/dannmacode "Instagram") | [**Twitter**](http://twitter.com/danielmacielace "Twitter") | [**Facebook**](http://facebook.com/danielmacielace "Facebook")
+---
+
+#### 🛠️ Tech Stack
+
+* **Frontend:** React, Next.js, JavaScript (ES6+), HTML5, CSS3
+* **Backend:** Node.js, Firebase
+* **Platforms & CMS:** Wix, Shopify, WordPress
+* **Tools & Deployment:** Git, GitHub, Vercel, Stripe
+
+---
+
+#### 📫 Let's Connect
+
+* **Portfolio:** [https://wearevelier.com/daniel](https://wearevelier.com/daniel)
+* **LinkedIn:** [linkedin.com/in/danielmacielacevedo](https://linkedin.com/in/danielmacielacevedo)
+* **Email:** byanndannma@gmail.com
